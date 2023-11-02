@@ -1,7 +1,7 @@
 #!/bin/bash
 if [[ $UID != 0 ]]; then
     echo "Please run this script with sudo:"
-    echo "sudo $0 $* (tip: you can rerun the previous terminal command by entering: sudo !!"
+    echo "sudo $0 $* (tip: you can rerun the previous terminal command by entering: sudo !!)"
     exit 1
 fi
 
